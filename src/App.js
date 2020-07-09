@@ -15,7 +15,7 @@ function App() {
         <div className="card-header bg-dark text-light">Person 1</div>
           <div className="card-body">
             <ul className="list-group">
-              <PersonCard firstName="Makenna" lastName="Martin" age="23" hairColor="blonde" />
+              <PersonCard firstName="Makenna" lastName="Martin" age={23} hairColor="blonde" />
               
             </ul>
           </div>
@@ -24,28 +24,31 @@ function App() {
         <div className="card-header bg-dark text-light">Person 2</div>
           <div className="card-body">
             <ul className="list-group">
-              <PersonCard firstName="Michele" lastName="Martin" age="48" hairColor="blonde"/>
+              <PersonCard firstName="Michele" lastName="Martin" age={48} hairColor="blonde"/>
               
             </ul>
+            
           </div>
       </div>
       <div className="card my-5">
         <div className="card-header bg-dark text-light">Person 3</div>
           <div className="card-body">
             <ul className="list-group">
-            <PersonCard firstName="James" lastName="Franco" age="40" hairColor="brown"/>
+            <PersonCard firstName="James" lastName="Franco" age={40} hairColor="brown"/>
               
             </ul>
+        
           </div>
       </div>
       <div className="card my-5">
         <div className="card-header bg-dark text-light">Person 4</div>
           <div className="card-body">
             <ul className="list-group">
-              <PersonCard firstName="Seth" lastName="Rogan" age="43" hairColor="brown"/>
+              <PersonCard firstName="Seth" lastName="Rogan" age={43} hairColor="brown"/>
 
               
             </ul>
+           
           </div>
       </div>
     </div>
